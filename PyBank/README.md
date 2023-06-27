@@ -63,4 +63,5 @@ f.close()
    To learn how to export the output in .txt format
 ---------------------------------------------------------------------------------------------
 
+Note that I also used Jupyter IDE to test and debug my code.
 
