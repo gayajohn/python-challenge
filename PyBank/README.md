@@ -19,17 +19,29 @@ f= open(filepath, "w")
 #printing the same output into the .txt file
 
 print("Financial Analysis", file = f)
+
 print("", file = f)
+
 print("----------------------------", file = f)
+
 print("", file = f)
+
 print(f"Total Months: {total_months}", file = f)
+
 print("", file = f)
+
 print(f"Total: ${total_pl}", file = f)
+
 print("", file = f)
+
 print(f"Average Change: ${round(average(change),2)}", file = f) 
+
 print("", file = f)
+
 print(f"Greatest Increase in Profits: {dates[change.index(highest)]} (${highest})", file = f)
+
 print("", file = f)
+
 print(f"Greatest Decrease in Profits: {dates[change.index(lowest)]} (${lowest})", file = f)
 
 #closing the .txt file
