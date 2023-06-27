@@ -1,4 +1,4 @@
-#references
+
 Here are the references used in the main.py script for the PyBank project:
 
 1) https://www.geeksforgeeks.org/appending-to-list-in-python-dictionary/
